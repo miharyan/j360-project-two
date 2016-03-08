@@ -1,0 +1,25 @@
+body {
+	background-color: lightgrey;
+}	
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+li {
+	display: inline;
+	float: left;
+}
+a {
+	display: block;
+	padding: 8px;
+	background-color: grey;
+}
+
+@media (max-width: 768px) {
+	.wrapper {
+		
+	
