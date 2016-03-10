@@ -1,0 +1,66 @@
+h1{display:none;}
+
+body {
+	font-family: 'Raleway', avneir, arial, sans-serif;
+	color: #black;
+}
+h2{
+	font-family: 'Josefin Slab', serif;
+	Color: #B3539F;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #CDA580;
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#CF97D6;
+}
+
+#location {
+	width: 33%;
+	left: 0;
+	position: absolute;
+}
+
+#openhours {
+	width: 34%;
+	margin-left: 33%;
+	position: absolute;
+}
+
+#phonenumber {
+	width: 33%;
+	right: 0%;
+	position: absolute;	
+}
+
+#map {
+	width: 34%;
+	margin-left: 33%;
+	position: absolute;
+}
+
+@media (max-width: 768px) {
+	.wrapper {
+		
+	
