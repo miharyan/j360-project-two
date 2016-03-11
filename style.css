@@ -2,11 +2,7 @@ h1{display:none;}
 
 body {
 	font-family: 'Raleway', avneir, arial, sans-serif;
-<<<<<<< HEAD
 	color: black;
-=======
-	color: #black;
->>>>>>> origin/master
 }
 h2{
 	font-family: 'Josefin Slab', serif;
@@ -39,7 +35,6 @@ li a {
 
 li a:hover {
     background-color:#CF97D6;
-<<<<<<< HEAD
 }
 
 #map {
@@ -116,82 +111,6 @@ widht: 100%
     }
 }
 
-=======
-}
-
-#map {  margin: 0 auto; }
-
-.container {
-    margin: 10px 4%;
-}
-.row {
-    width: 100%;
-    margin-bottom: 20px;
-    display: block;
-}
-.container::after, .row::after {
-    clear: both;
-    display: table;
-    content: "";
-}
-.col {
-    float: left;
-    display: block;
-}
-
-.col:last-child {
-    margin: 0;
-}
-
-.col-4 {
-    width: 100%;
-    margin-right: 0;
-}
-
-.col img {
-    width: 100%;
-}
-
-@media (min-width: 768px) {
-    /*
-        750 - (236*3) - (21*2)
-        236/750 = 31.4666667%
-        20/750 = 2.6666667%
-    */
-    .container {
-        width: 750px;
-        margin: 15px auto;
-    }
-
-    .col-4 {
-        width: 31.4666667%;
-        margin-right: 2.6666667%;
-    }
-
-}
-
-@media (min-width: 992px) {
-    /*
-        960 - (306*3) - (21*2)
-        306/960 = 31.875%
-        21/960 = 2.1875%
-    */
-    .container {
-        width: 960px;
-        margin: 20px auto 5px;
-    }
-
-    .col-4 {
-        width: 31.875%;
-        margin-right: 2.1875%;
-    }
-
-    h1 {
-        font-size: 3em;
-    }
-}
-
->>>>>>> origin/master
 @media (min-width: 1200px) {
     /*
         1000 - (320*3) - (20*2)
